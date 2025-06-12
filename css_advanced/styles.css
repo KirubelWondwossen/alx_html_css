@@ -141,3 +141,29 @@ button {
 .imgs_container h3 {
   font-size: 18px;
 }
+
+.testimonials {
+  background-color: #c271ff;
+}
+
+.testimonials_container {
+  padding: 96px 0;
+  display: flex;
+  gap: 53px;
+  justify-content: center;
+  align-items: center;
+}
+
+.test_img {
+  border-radius: 50%;
+}
+
+blockquote {
+  margin-bottom: 22px;
+}
+
+blockquote,
+.testimonials_container p,
+.test_h3 {
+  font-size: 22px;
+}
