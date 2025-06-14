@@ -353,3 +353,32 @@ blockquote,
   line-height: 1.8;
   width: 350px;
 }
+
+/* ******************************************************************************************* */
+.footer {
+  background-color: #071629;
+}
+
+.footer_container {
+  padding: 0 165px;
+}
+
+.logo_icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 95px;
+}
+
+.social_media {
+  font-size: 28px;
+  gap: 24px;
+}
+
+.footer_container p {
+  font-size: 12px;
+  opacity: 0.35;
+  margin-top: 75px;
+  text-align: center;
+  padding-bottom: 40px;
+}
