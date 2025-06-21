@@ -110,3 +110,53 @@ h1 {
 .btn:hover {
   opacity: 0.9;
 }
+
+/* *********************************************** */
+@media (max-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+
+  .logo {
+    width: 80px !important;
+  }
+
+  nav {
+    padding: 15px;
+  }
+
+  ul {
+    gap: 10px;
+  }
+
+  li a {
+    font-size: 10px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .hero-container h2 {
+    font-size: 14px;
+  }
+
+  .hero-container p {
+    width: 400px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 18px;
+  }
+  .hero-container h2 {
+    font-size: 12px;
+  }
+
+  .hero-container p {
+    width: 300px;
+    font-size: 12px;
+  }
+}
